@@ -1,0 +1,49 @@
+h1 {
+  color: coral;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  color: LightCoral;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h4{
+  color: LightSalmon;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: LemonChiffon;
+}
+
+table.center {
+  width: 90%; 
+  margin-left: 5%; 
+  margin-right: 5%;
+}
+
+th, td {
+  padding: 10px;
+}
+
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+  background-color: FloralWhite;
+}
+
+#source-material {
+  text-align: center;
+}
+
+#source {
+  display: inline-block;
+  text-align: center;
+  font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+}

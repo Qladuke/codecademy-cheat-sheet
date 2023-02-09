@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+  <title>Quinn LaDuke's HTML Table Cheat Sheet</title>
+  <link href="styles.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1>HTML Table Reference</h1>
+  <h2>Table Tags</h2>
+  <table class="center">
+    <thead>
+      <tr>
+        <th scope="col">Tag</th>
+        <th scope="col">Name</th>
+        <th scope="col">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>&lt;table&gt;</td>
+        <td>Table</td>
+        <td>The wrapper element for all HTML tables.</td>
+      </tr>
+      <tr>
+        <td>&lt;tr&gt;</td>
+        <td>Table Row</td>
+        <td>Used to add rows to a table before adding table data and table headings.</td>
+      </tr>
+      <tr>
+        <td>&lt;td&gt;</td>
+        <td>Table Data</td>
+        <td>Nested inside a table row element to add a cell of data to a table.</td>
+      </tr>
+      <tr>
+        <td>&lt;thead&gt;</td>
+        <td>Table Head</td>
+        <td>Defines the headings of table columns encapsulated in table rows.</td>
+      </tr>
+      <tr>
+        <td>&lt;tbody&gt;</td>
+        <td>Table Body</td>
+        <td>A semantic element that will contain all table data other than table heading and table footer content</td>
+      </tr>
+      <tr>
+        <td>&lt;tfoot&gt;</td>
+        <td>Table Foot</td>
+        <td>Uses table rows to give footer content or to summarize content at the end of a table.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Table Attributes</h2>
+  <table class="center">
+    <thead>
+      <tr>
+        <th scope="col">Attribute</th>
+        <th scope="col">Name</th>
+        <th scope="col">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>colspan</td>
+        <td>Column Span</td>
+        <td>The colspan attribute on a thead or td element indicates how many columns that particular cell should span within the table. Colspan default value is 1 by default and will take any positive integer between 1 and 1000. </td>
+      </tr>
+      <tr>
+        <td>rowspan</td>
+        <td>Row Span</td>
+        <td>The rowspan attribute on a table header or table data element indicates how many rows that particular cell should span within the table. The rowspan default value is 1 and will take any positive integer up to 65534.</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <h4>Cheat sheet made by Quinn LaDuke for Codedademy's front end engineer career path.</h4>
+  <div id="source-material">
+    <a href="https://www.codecademy.com/learn/paths/learn-html/tracks/learn-html/modules/learn-html-tables/cheatsheet" target="_blank" id="source">Source Material</a>
+  </div>
+</body>
+</html>
